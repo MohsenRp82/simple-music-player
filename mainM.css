@@ -1,0 +1,109 @@
+@media only screen and (max-width : 800px) {
+    @import url(./mainM.css);
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Shiny\ Overlay.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    gap: 8px;
+}
+.title h1{
+    font-size: 30px;
+    color: azure;
+}
+.title img{
+    width: 35px;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music{
+    width: 450px;
+    height: 500px;
+    border:4px solid rgb(183, 43, 43);
+    border-radius: 10px;
+    background: rgba(222, 221, 221, 0.2);
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+.cover{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music-name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.speed{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover img{
+    width: 240px;
+    height: 240px;
+    box-shadow: 7px 7px 15px rgb(49, 39, 39);
+    transition: transform 250ms;
+}
+.cover img:hover{
+    transform: scale(1.1);
+}
+.speed button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: unset;
+    background-color: rgb(232, 66, 66);
+    transition: transform 250ms;
+}
+.speed button:hover{
+    background-color: rgb(210, 166, 166);
+    transform: scale(1.2);
+}
+.tools{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tools button{
+    width: 55px;
+    height: 55px;
+    border: unset;
+    border-radius: 50%;
+    background-color: rgb(232, 66, 66);
+    transition: transform 250ms;
+}
+.tools button:hover{
+    background-color: rgb(220, 213, 213);
+    transform: scale(1.15);
+}
+.tools button img{
+    width: 35px;
+    height: 35px;
+}
+}
